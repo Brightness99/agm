@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --button-bg-color: #00afe0;
+  --link-text-color: #1c3c5b;
+  --hero-text-color: #132e52;
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('./assets/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('./assets/fonts/Montserrat-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('./assets/fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('./assets/fonts/Montserrat-SemiBold.ttf');
+}
+
+/* Styles */
+
+.row {
+  display: block;
+}
+
+.col {
+  flex: 1;
+}
+
+.item-container {
+  height: 100vh;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  max-height: 500px;
+}
+
+.base-container {
+  background-image: url('./assets/images/bg1.png');
+  background-position: top center;
+  border-bottom: solid 4px white;
+}
+
+.bath-container {
+  background-image: url('./assets/images/bg2.png');
+  background-position: top center;
+}
+
+.bath-container .hero-item {
+  margin-top: 80px;
+}
+
+.bath-container.item-container {
+  max-height: 390px;
+}
+
+
+@media (min-width: 576px) {  
+  .item-container {
+    max-height: 600px;
+  }
+
+  .bath-container.item-container {
+    max-height: 490px;
+  }
+}
+ 
+@media (min-width: 768px) {  
+
+}
+ 
+@media (min-width: 992px) {
+  .row {
+    display: flex;
+  }
+  .item-container {
+    max-height: unset;
+  }
+
+  .base-container {
+    background-position: center;
+    border-bottom-width: 0;
+  }
+  
+  .bath-container {
+    background-position: center;
+  }
+
+  .bath-container.item-container {
+    max-height: unset;
+  }
+
+  .bath-container .hero-item {
+    margin-top: 360px;
+  }
+}
+ 
+@media (min-width: 1200px) {  
+    
+}

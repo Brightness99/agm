@@ -1,0 +1,148 @@
+.button {
+  border: none;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  /* background-color: var(--active-green); */
+}
+
+.button:focus {
+  outline: none;
+  /* background-color: var(--active-green); */
+}
+
+.button__click {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 55px;
+  background-image: url('../../assets/images/button.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 12px;
+  text-decoration: none;
+
+  -webkit-box-shadow: -6px 5px 5px 2px rgba(0,0,0,0.5);
+  -moz-box-shadow: -6px 5px 5px 2px rgba(0,0,0,0.5);
+  box-shadow: -6px 5px 5px 2px rgba(0,0,0,0.5);
+}
+
+.button__click span {
+  font-size: 20px;
+  line-height: 0;
+  color: white;
+  font-family: 'Montserrat-Bold';
+  padding-bottom: 10px;
+}
+
+.button__click span:last-child {
+  font-family: 'Montserrat-Light';
+}
+
+
+.consultation__action {
+  margin-top: -25px;
+}
+
+.button__default {
+  height: fit-content;
+  background-color: var(--button-bg-color);
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  line-height: 135%;
+  font-family: 'Montserrat-Medium';
+  text-decoration: none;
+  -webkit-box-shadow: 4px 4px 6px 2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 4px 4px 6px 2px rgba(0,0,0,0.3);
+  box-shadow: 4px 4px 6px 2px rgba(0,0,0,0.3);
+  
+}
+
+.button__phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button__phone-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.button__phone-title {
+  font-family: 'Montserrat-Medium';
+  font-size: 14px;
+  color: var(--link-text-color);
+}
+
+@media (min-width: 576px) {
+
+  .button__default {
+    padding: 11px 20px;
+    font-size: 14px;
+    line-height: 135%;
+  }
+
+  .button__click {
+    width: 200px;
+    height: 69px;
+  }
+
+  .button__click span {
+    font-size: 24px;
+  }
+
+  .consultation__action {
+    display: flex;
+  }
+
+  .button__phone {
+    margin-right: 14px;
+  }
+
+  .button__phone-title {
+    font-size: 20px;
+    margin: 0;
+  }
+}
+ 
+@media (min-width: 768px) {  
+ 
+}
+ 
+@media (min-width: 992px) { 
+  .button__default {
+    padding: 18px 20px;
+    font-size: 20px;
+  }
+
+  .button__phone-title {
+    font-size: 29px;
+  }
+
+  .button__phone {
+    margin-right: 18px;
+  }
+
+  .button__phone-icon {
+    width: 33px;
+    height: 33px;
+    margin-right: 14px;
+  }
+}
+ 
+@media (min-width: 1200px) {  
+    
+}

@@ -1,0 +1,54 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": 1,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "paths": {
+    "ROOT": "/Volumes/Data/Developer/temp/agm",
+    "SRC": "/Volumes/Data/Developer/temp/agm/src",
+    "DIST": "/Volumes/Data/Developer/temp/agm/dist",
+    "ASSETS": "/Volumes/Data/Developer/temp/agm/dist",
+    "PLUGINS": "/Volumes/Data/Developer/temp/agm/plugins",
+    "TEMP": "/Volumes/Data/Developer/temp/agm/tmp",
+    "ARTIFACTS": "/Volumes/Data/Developer/temp/agm/artifacts",
+    "PUBLIC": "/Volumes/Data/Developer/temp/agm/public",
+    "NODE_MODULES": "/Volumes/Data/Developer/temp/agm/node_modules",
+    "EXCLUDE_MODULES": "/Volumes/Data/Developer/temp/agm/node_modules",
+    "PACKAGE": "/Volumes/Data/Developer/temp/agm/package.json",
+    "HTML_TEMPLATE": "/Volumes/Data/Developer/temp/agm/dist/index.html",
+    "STATIC_DATA": "/Volumes/Data/Developer/temp/agm/dist/staticData"
+  },
+  "plugins": [
+    "/Volumes/Data/Developer/temp/agm"
+  ],
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
