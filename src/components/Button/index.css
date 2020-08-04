@@ -6,13 +6,8 @@
   opacity: 0.8;
 }
 
-.button:active {
-  /* background-color: var(--active-green); */
-}
-
 .button:focus {
   outline: none;
-  /* background-color: var(--active-green); */
 }
 
 .button__click {
@@ -28,7 +23,6 @@
   background-size: contain;
   border-radius: 12px;
   text-decoration: none;
-
   -webkit-box-shadow: -6px 5px 5px 2px rgba(0,0,0,0.5);
   -moz-box-shadow: -6px 5px 5px 2px rgba(0,0,0,0.5);
   box-shadow: -6px 5px 5px 2px rgba(0,0,0,0.5);
@@ -45,7 +39,6 @@
 .button__click span:last-child {
   font-family: 'Montserrat-Light';
 }
-
 
 .consultation__action {
   margin-top: -25px;
@@ -64,7 +57,6 @@
   -webkit-box-shadow: 4px 4px 6px 2px rgba(0,0,0,0.3);
   -moz-box-shadow: 4px 4px 6px 2px rgba(0,0,0,0.3);
   box-shadow: 4px 4px 6px 2px rgba(0,0,0,0.3);
-  
 }
 
 .button__phone {
